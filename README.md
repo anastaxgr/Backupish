@@ -13,7 +13,7 @@ You can backup folder once , or create a crontab operator and create backups eve
 
 You must have installed **ZIP** and **FTP** libraries.
 
-To install type this in terminal:
+To install them enter this command in your terminal.
 ```shell
 sudo apt-get install zip ftp
 ```
@@ -42,9 +42,10 @@ Add this line to crontab and create backup every 1 Hour.
 
 
 
-### Delete ZIP File after upload
+### Optional
 
-Change this option if you want to keep or delete backup file.
+You can keep or delete the file created from backup. <br/>
+Change to **false** if you want to keep original backup archive.
 
 ```bash
 DELETE_BACKUP_FILE=true
